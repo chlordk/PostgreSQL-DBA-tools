@@ -7,7 +7,7 @@ Most have options to specify host and port.
 ```
 
 | Filename                        | Description |
-| --- | ---. |
+| --- | --- |
 | cache_hit_ratio.sh              | Shows the cache hit ration for all databases. |
 | cancel_all_queries.sh           | Terminates all queries in progress. |
 | check_postgresql_log.sh         | Greps the postgres log file for ERROR, WARNING and ref's to pg_hba. You will probably need to edit and adjust the directory path and suffix for your cluster. |
@@ -17,17 +17,17 @@ Most have options to specify host and port.
 | current_queries.sh              | Shows information on all current queries, will loop continuously unless -x option is specified. -s option specifies sleeptime, default is 5 secs. -i will ignore <IDLE> queries. |
 | database_sizes.sh               | Shows size of all databases. |
 | filename_tables.sh              | Shows physical directory, filename, owner & size for all tables in specified database. |
-| |. |
+| | |
 | flip_database_connect.sh        | Flips state of datallowconn for database. |
-| |. |
+| | |
 | get_trans_min_cnt.sh            | Shows transaction count per minute for cluster. |
 | groups_users.sh                 | Shows all groups & members in cluster and if group or user is a superuser. |
 | index_bloat.sh                  | Shows index ration to table size for all indexes of all or specified table in database. |
 | index_comments.sh               | Shows comments on all or specified index for database. |
-| |. |
+| | |
 | logins_block.sh                 | Prevents all non-superusers from future logins. MUST be run as user postgres. |
 | logins_allow.sh                 | Re-allows login access to all normal users. MUST be run as user postgres. |
-| |. |
+| | |
 | pg_backup.sh                    | Generic backup script for postgres database. You will need to edit and adjust for your needs. |
 | pg_runtime.sh                   | Shows startup and continuous runtime for the cluster. |
 | pg_stat_all_indexes.sh          | Shows stats and status of all indexes or just for specified table. |
